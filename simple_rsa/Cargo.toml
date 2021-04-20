@@ -1,0 +1,16 @@
+[package]
+name = "simple_rsa"
+version = "0.1.0"
+authors = ["Forsworns <378974295@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8"
+num-bigint-dig = { version = "0.7.0", features = ["prime"] }
+num-traits = "0.2.14"
+num-integer = "0.1.44"
+sha2 = "0.9.3"
+aes = "0.6.0"
+simple_rsa_derive = {path="../simple_rsa_derive"}
